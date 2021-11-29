@@ -1,0 +1,12 @@
+@import java.util
+@(searchTerm: List[String])
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Results</title>
+  </head>
+  <h1>Results</h1>
+  @for(term <- searchTerm){
+    <h3>term</h3>
+  }
+</html>
